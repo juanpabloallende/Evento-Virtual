@@ -1,0 +1,277 @@
+*{
+margin:0;
+padding:0;
+box-sizing:content-box;
+}
+body {
+	font-family:"Sharp Sans No1";
+}
+header {
+	width:100%;
+	background:url("assets/Group4.svg");
+	height:318px;
+	padding-top:2em;
+}
+header p {
+	font-family:"Proxima Nova";
+	font-size:.85em;
+	background:rgb(204,102,0);
+	color:white;
+	border-radius:5px;
+	margin:auto;
+	text-align:center;
+	width:5em;
+	padding:0.5em;
+	font-weight:bold;
+}
+h1 {
+	font-family:"Sharp Sans No1";
+	color:rgb(0,51,51);
+	font-size:1.5em;
+	margin-top:1.2em;
+	font-weight:bold;
+	text-align:center;
+}
+h1 em {
+	display:block;
+	text-align:center;
+}
+h2 {
+	font-family:"Proxima Nova";
+	color:rgb(0,51,51);
+	font-size:1.25em;
+	text-align:center;
+	margin-top:0.5em;
+}
+.container {
+	display:block;
+	margin-top:2em;
+}
+.sponsors img {
+	max-width:100%;
+}
+#invitacion {
+	padding:1em;
+}
+#invitacion p {
+	font-family:"Proxima Nova";
+	font-size:.85em;
+	color:rgb(51,102,102);
+	margin-bottom:1.2em;
+}
+.especialista {
+	display:block;
+	margin-bottom:1.5em;
+}
+.especialista div {
+	display:block;
+	margin:auto;
+}
+.especialista h3 {
+	font-family:"Sharp Sans No1";
+	margin-left:1em;
+	font-size:1.2em;
+	margin-bottom:0.5em;
+	color:rgb(0,51,51);
+}
+.especialista p {
+	font-family:"Sharp Sans No1";
+	margin-left:1em;
+	font-size:.85em;
+	color:rgb(0,51,51);
+}
+#form {
+	padding:1em;
+}
+form {
+	background:rgb(230,230,230);
+	margin:auto;
+	padding:1.2em;
+	font-family:"Sharp Sans No1";
+	font-weight:bold;
+}
+form h3 {
+	color:rgb(0,51,51);
+	font-size:1.2em;
+	margin-bottom:1.5em;
+	text-align:center;
+}
+#enviar {
+	width:90%;
+	display:inline-block;
+	height:2.5em;
+	font-size:.85em;
+	margin-bottom:1.2em;
+	color:white;
+	background:rgb(0,51,51);
+	font-family:"Sharp Sans No1";
+}
+form input [type=text], [type=email]{
+	display:inline-block;
+	width:90%;
+	height:2.5em;
+	font-size:.85em;	
+	margin-bottom:1.2em;
+	color:rgb(0,51,51);
+}
+form input [type=text], [type=text]{
+	display:inline-block;
+	width:90%;
+	height:2.5em;
+	font-size:.85em;	
+	margin-bottom:1.2em;
+	color:rgb(0,51,51);
+}
+form input:nth-child(2) {
+	display:inline-block;
+	width:60%;
+	height:2.5em;
+	font-size:.85em;	
+	margin-bottom:1.2em;
+}
+select {
+	display:inline-block;
+	width:90%;
+	height:2.5em;
+	font-size:.85em;	
+	margin-bottom:1.2em;
+}
+form label {
+	display:block;
+	color:rgb(0,51,51);
+	font-size:.85em;
+	margin-bottom:0.5em;
+}
+.modal {
+	display:none;
+	background:rgb(0,51,51);
+	color:white;
+	width:92%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:1em;
+	padding:1.25em;
+}
+.modal h3 {
+	font-size:1.25em;
+}
+.modal button {
+	margin:auto;
+	padding:0.5em;
+	margin-top:1em;
+	background:white;
+	color:rgb(0,51,51);
+}
+footer {
+	background:rgb(230,230,230);
+	height:150px;
+}
+footer p {
+	font-family:"Proxima Nova";
+	font-size:1em;
+	margin-top:1.25em;
+	color:rgb(51,102,102);
+	flex:50%;
+}
+footer div {
+	display:flex;
+}
+footer ul {
+	list-style-type:none;
+	display:inline-block;
+	padding-top:0.5em;
+	flex:50%;
+}
+footer ul li {
+	display:inline;
+}
+footer ul li a:nth-child(1) {
+	font-size:1.375em;
+	line-height:2em;
+	margin-left:.5em;
+	padding-top:1em;
+}  
+footer ul li a:nth-child(2) {
+	font-size:1.375em;
+	line-height:2em;
+	margin-left:.5em;
+	padding-top:1em;
+}  
+footer ul li a:nth-child(3) {
+	font-size:1.5em;
+	line-height:2em;
+	margin-left:.5em;
+	display:inline;
+	padding-top:1em;
+}  
+footer ul li a:nth-child(4) {
+	font-size:1.5em;
+	line-height:2em;
+	margin-left:0.5em;
+	display:inline;
+	padding-top:1em;
+}  
+footer ul li a:nth-child(5) {
+	font-size:1.5em;
+	line-height:2em;
+	margin-left:0.5em;
+	display:inline;
+	padding-top:1em;
+}
+footer ul li a:nth-child(6) {
+	font-size:1.5em;
+	line-height:2em;
+	margin-left:0.5em;
+	display:inline;
+	padding-top:1em;
+}
+
+@media screen and (min-width: 576px) {
+	h1 {
+		font-size:2em;
+	}
+	h2 {
+		font-size:1.25em;
+	}
+	.container {
+		display:block;
+	}
+	.especialista {
+		display:block;
+	}
+	.especialista div {
+		display:inline-block;
+		margin:0;
+	}
+}
+@media screen and (min-width: 992px) {
+	header p {
+		font-size:1em;
+		width:6em;	
+	}
+	h1 {
+		font-size:2.5em;
+	}
+	h2 {
+		font-size:1.5em;
+	}
+	.container {
+		display:flex;
+	}
+	#invitacion {
+		max-width:60%;
+	}
+	.especialista {
+		display:flex;
+	}
+	.especialista div {
+		display:inline-block;
+		margin:0;
+	}
+	#form {
+		max-width:40%;
+	}
+	form {
+		width:95%;
+	}
+}	
